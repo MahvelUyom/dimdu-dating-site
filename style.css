@@ -1,0 +1,73 @@
+*{
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  
+}
+body{
+  background: linear-gradient(to bottom right,black, purple,black);
+  overflow: hidden;
+
+}
+.header{
+  background:black;
+  color: white;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  padding: .5rem 0;
+}
+.style{
+  font-family: cursive;
+  font-size: 1.3rem;
+  color: purple;
+}
+.home{
+  text-align: center;
+  /* padding-top: 50%; */
+  background: url("fullgirl.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: contain;
+}
+.home h3{
+  font-weight:300;
+  margin-top: 30%;
+  color:white;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+.home .btn{
+  padding: .5rem;
+  border: 0;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: purple;
+  background-color: white;
+  border-radius: 5px;
+  transition: .3s;
+  text-decoration: none;
+}
+.home .btn:hover{
+  background: rgb(170, 170, 239);
+
+}
+.footer{
+  background: black;
+  width: 100%;
+font-size: 2rem;
+bottom: 0;
+position: fixed;
+}
+
+.footer-flex{
+  display: flex;
+  justify-content:space-evenly;
+}
+i{
+  margin: 1rem;
+  color: white;
+}

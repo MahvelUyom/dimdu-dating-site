@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+.header{
+  background:black;
+  color: white;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  padding: .5rem 0;
+}
+
+.style{
+  font-family: cursive;
+  font-size: 1.3rem;
+  color: purple;
+}
+
+.home-page{
+  background:linear-gradient(to bottom right, purple, black);
+
+}
+.sign-up{
+  text-align: center;
+  color: white;
+}
+.sign-up h1 {
+  padding:2rem ;
+}
+form{
+  border: 2px solid black;
+  margin:2.5rem;
+  padding: 2rem;
+}
+label{
+  font-size: 1.5rem;
+  margin: 1rem;
+  color: rgb(254, 232, 232);
+}
+input{
+  font-size: 1.5rem;
+  padding: .5rem;
+  margin: 1rem;
+  background: none;
+  color: black;
+  border: 0;
+  border-bottom: 2px solid black;
+  outline: 0;
+}
+select{
+  font-size: 1.5rem;
+  padding: .5rem;
+  margin: 1rem;
+  background: none;
+  color: white;
+  border: 0;
+  border-bottom: 2px solid black;
+  outline: 0;
+}
+option{
+  color: black;
+  margin-top: 1rem;
+}
+button{
+  font-size: 1.3rem;
+  padding: .5rem;
+  border-radius: .5rem;
+  border: 0;
+  font-weight: 600;
+  color: purple;
+  margin: 2rem 1.5rem;
+}
+a{
+  font-size: 1.2rem;
+  color: whitesmoke;
+}
+
+
+
+
+
+
+.footer{
+  background: black;
+  width: 100%;
+font-size: 2rem;
+bottom: 0;
+position: fixed;
+}
+
+.footer-flex{
+  display: flex;
+  justify-content:space-evenly;
+}
+i{
+  margin: 1rem;
+  color: white;
+}
