@@ -36,7 +36,7 @@
 form{
   border: 2px solid black;
   margin:2.5rem;
-  padding: 2rem;
+  padding: 1rem;
 }
 label{
   font-size: 1.5rem;
@@ -44,9 +44,9 @@ label{
   color: rgb(254, 232, 232);
 }
 input{
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: .5rem;
-  margin: 1rem;
+  margin: 1rem 0;
   background: none;
   color: black;
   border: 0;
